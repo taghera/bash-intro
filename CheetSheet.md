@@ -108,3 +108,24 @@ Below is a table showing some of the arguments that can be used
 | `-r` or `-R` | recursive, delete all the files in the folders too |
 
 
+
+
+### cat
+---
+Print files
+
+This is a simple command to print the contents of a file
+
+```bash
+marshall@cerberus:~/bash-intro/$ ls
+CheetSheet.md LICENSE       README.md     testDir
+marshall@cerberus:~/bash-intro$ cat README.md 
+# bash-intro
+Content  for the into to bash workshop
+awsomeFile.txt
+marshall@cerberus:~/bash-intro/testDir$
+````
+
+`cat fileName`
+
+If you want to show line numbers in the output the `-n` flag can be used. 
