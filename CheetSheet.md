@@ -126,6 +126,23 @@ awsomeFile.txt
 marshall@cerberus:~/bash-intro/testDir$
 ````
 
-`cat fileName`
+`cat fileName ...` 
 
 If you want to show line numbers in the output the `-n` flag can be used. 
+
+
+### echo
+---
+White to stdout
+
+This command will output what ever you give it to the screen. Its usefull for printing variables, or piping strings into other functions (more on this later). 
+
+```bash
+marshall@cerberus:~/bash-intro/$ echo "Hey there"
+Hey there
+marshall@cerberus:~/bash-intro$ echo "$HOME"
+/Users/marshall
+marshall@cerberus:~/bash-intro/testDir$ 
+````
+
+`echo string ...`
